@@ -1,9 +1,9 @@
 while(TRUE){
-  print("HELLO")
+  print("Navadeep")
 }
 
 while(FALSE){
-  print("HELLO")
+  print("Navadeep")
 }
 
 counter<-1
@@ -19,6 +19,7 @@ for(i in 1:5){
 for(i in 6:10){
   print("Hello World")
 }
+x <- 2
 
 rm(answer)
 x <- rnorm(1)
@@ -67,9 +68,9 @@ x <- c(80,20)
 y <- rep(x,10)
 y
 
-x <- c(1,123,534,13,4)  #combine
-y <- seq(201,250,11)    #sequence
-z <- rep("Hi!",3)       #replicate
+x <- c(1,123,534,13,4)  
+y <- seq(201,250,11)    
+z <- rep("Hi!",3)       
 
 w <- c("a","b","C","d","e")
 w
@@ -89,7 +90,7 @@ w[1:2]
 x <- rnorm(5)
 x
 
-# programming loop
+
 for(i in x){
   print(i)
 }
@@ -100,7 +101,7 @@ print(x[3])
 print(x[4])
 print(x[5])
 
-#conventional programming loop
+
 for(j in 1:5){
   print(x[j])
 }
@@ -110,7 +111,7 @@ N <- 100
 a <- rnorm(N) 
 b <- rnorm(N)
 
-#Vectorized approach
+
 c <- a * b
 
 #De-Vectorized approach
